@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        tools:context=".Main2Activity">
+
+    <TextView
+            android:id="@+id/tv1"
+            android:text="Welcome to TIC TAC TOE"
+            android:textSize="65dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#8F0303"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            android:src="@drawable/tictactoe"
+            android:layout_width="270dp"
+            android:layout_gravity="center"
+            android:layout_height="280dp"/>
+
+    <Button
+            android:id="@+id/button1"
+            android:text="Play"
+            android:padding="5dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#8F0303"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/button2"
+            android:text="Exit"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:background="#8F0303"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
